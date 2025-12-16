@@ -1,0 +1,38 @@
+
+# Node / Logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Vite build 出力
+dist/
+
+# 環境変数（秘密情報）
+.env
+.env.local
+.env.*.local
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+.idea/
+# VSCode は共有したいファイルだけ許可
+.vscode/*
+!.vscode/extensions.json
+# （共有したい場合は settings.json も許可）
+# !.vscode/settings.json
+
+# テスト/カバレッジ
+coverage/
+.vitest/
+.jest/
+
+# Lint キャッシュ
+.eslintcache
+
+# 一時ファイル/アップロード（MVPの画像置き場）
+tmp/
+uploads/
